@@ -4,7 +4,7 @@ import neurolab as nl
 
 
 # Load input data
-text = np.loadtxt('data_simple_nn.txt')
+text = np.loadtxt('data/data_simple_nn.txt')
 
 # Separate it into data points and labels
 data = text[:, 0:2]

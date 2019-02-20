@@ -4,7 +4,7 @@ import neurolab as nl
 
 
 # Load input data
-text = np.loadtxt('data_perceptron.txt')
+text = np.loadtxt('data/data_perceptron.txt')
 
 # Separate data points and Labels
 data = text[:, :2]

@@ -4,7 +4,7 @@ import neurolab as nl
 
 
 # Load input data
-text = np.loadtxt('data_vector_quantization.txt')
+text = np.loadtxt('data/data_vector_quantization.txt')
 
 # Separate it into data and labels
 data = text[:, 0:2]
